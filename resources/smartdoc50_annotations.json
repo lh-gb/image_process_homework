@@ -1,0 +1,1766 @@
+{
+  "dataset": "SmartDoc 2015 Challenge 1 v2.0.0",
+  "original_record": "https://doi.org/10.5281/zenodo.1230218",
+  "archive_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset/releases/download/v2.0.0/frames.tar.gz",
+  "archive_sha256": "3acb8be143fc86c507d90d298097cba762e91a3abf7e2d35ccd5303e13a79eae",
+  "provenance": "Official ground truth restored only after byte-identical SHA-256 comparison for every local JPEG",
+  "coordinate_system": "Original 1920x1080 image pixels, x right and y down; not normalized",
+  "corner_order": [
+    "top_left",
+    "top_right",
+    "bottom_right",
+    "bottom_left"
+  ],
+  "images": [
+    {
+      "id": 1,
+      "filename": "doc_001.jpg",
+      "document_id": "datasheet001",
+      "document_type": "datasheet",
+      "background": "background01",
+      "corners": [
+        [
+          657.687,
+          169.513
+        ],
+        [
+          1140.85,
+          177.407
+        ],
+        [
+          1190.07,
+          856.773
+        ],
+        [
+          627.402,
+          862.425
+        ]
+      ],
+      "sha256": "d3cf0e4d93a4b1bcdf32bb943ea8636483c1023693298d644859e87def9faf87",
+      "source_image_path": "background01/datasheet001/frame_0059.jpeg",
+      "frame_index": 59,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.1730237775786072,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 2,
+      "filename": "doc_002.jpg",
+      "document_id": "datasheet004",
+      "document_type": "datasheet",
+      "background": "background01",
+      "corners": [
+        [
+          731.648,
+          206.522
+        ],
+        [
+          1189.14,
+          171.426
+        ],
+        [
+          1347.32,
+          798.089
+        ],
+        [
+          819.105,
+          874.329
+        ]
+      ],
+      "sha256": "9d655eed2ed136b49c17b9331a4068cca8787c3f60ac9f532428ac7b3a7bd765",
+      "source_image_path": "background01/datasheet004/frame_0071.jpeg",
+      "frame_index": 71,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.15713208686848962,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 3,
+      "filename": "doc_003.jpg",
+      "document_id": "letter002",
+      "document_type": "letter",
+      "background": "background01",
+      "corners": [
+        [
+          775.505,
+          145.963
+        ],
+        [
+          1201.7,
+          131.752
+        ],
+        [
+          1315.61,
+          690.972
+        ],
+        [
+          805.527,
+          720.673
+        ]
+      ],
+      "sha256": "11dd7dde3b2e360939704b0b1fe8905e443beac26508eced43c4790b1daf5a93",
+      "source_image_path": "background01/letter002/frame_0091.jpeg",
+      "frame_index": 91,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.12876085726803624,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 4,
+      "filename": "doc_004.jpg",
+      "document_id": "letter005",
+      "document_type": "letter",
+      "background": "background01",
+      "corners": [
+        [
+          716.444,
+          316.451
+        ],
+        [
+          1073.51,
+          253.971
+        ],
+        [
+          1290.22,
+          702.042
+        ],
+        [
+          870.818,
+          808.266
+        ]
+      ],
+      "sha256": "3272a6292b00d8d3ed39b0800416dbba7a2afa1aa13c6d9517a3cdd40eaa6548",
+      "source_image_path": "background01/letter005/frame_0111.jpeg",
+      "frame_index": 111,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.09553370440104168,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 5,
+      "filename": "doc_005.jpg",
+      "document_id": "magazine003",
+      "document_type": "magazine",
+      "background": "background01",
+      "corners": [
+        [
+          571.923,
+          231.008
+        ],
+        [
+          948.917,
+          300.063
+        ],
+        [
+          818.687,
+          805.671
+        ],
+        [
+          356.976,
+          717.046
+        ]
+      ],
+      "sha256": "c997c38e9d8aa7e607316db549ca9b0ce788ef0bb251dcaa14bbf60fa9f6fa7a",
+      "source_image_path": "background01/magazine003/frame_0134.jpeg",
+      "frame_index": 134,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.10683424573085457,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 6,
+      "filename": "doc_006.jpg",
+      "document_id": "paper001",
+      "document_type": "paper",
+      "background": "background01",
+      "corners": [
+        [
+          806.352,
+          231.489
+        ],
+        [
+          1207.48,
+          219.284
+        ],
+        [
+          1312.11,
+          765.542
+        ],
+        [
+          843.493,
+          794.879
+        ]
+      ],
+      "sha256": "cd0a0af0e1d0be3295e7c32c1dc064921c2b280d51435c7e22f1ffef86a5da7c",
+      "source_image_path": "background01/paper001/frame_0148.jpeg",
+      "frame_index": 148,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.11706696694661459,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 7,
+      "filename": "doc_007.jpg",
+      "document_id": "paper004",
+      "document_type": "paper",
+      "background": "background01",
+      "corners": [
+        [
+          734.579,
+          315.554
+        ],
+        [
+          1106.82,
+          295.102
+        ],
+        [
+          1195.0,
+          778.334
+        ],
+        [
+          749.513,
+          813.747
+        ]
+      ],
+      "sha256": "7892a493abcecb425fe460bec39361acf25bb44122894dc747d6d17763da372a",
+      "source_image_path": "background01/paper004/frame_0064.jpeg",
+      "frame_index": 64,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.09745119188970873,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 8,
+      "filename": "doc_008.jpg",
+      "document_id": "patent002",
+      "document_type": "patent",
+      "background": "background01",
+      "corners": [
+        [
+          532.491,
+          257.134
+        ],
+        [
+          943.655,
+          213.989
+        ],
+        [
+          1038.31,
+          758.098
+        ],
+        [
+          554.374,
+          819.705
+        ]
+      ],
+      "sha256": "52b92cfe6b237a00338d6f7372a49430ebcfeb4670509fa94283857fee383ca8",
+      "source_image_path": "background01/patent002/frame_0068.jpeg",
+      "frame_index": 68,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.12090046978395061,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 9,
+      "filename": "doc_009.jpg",
+      "document_id": "patent005",
+      "document_type": "patent",
+      "background": "background01",
+      "corners": [
+        [
+          686.775,
+          327.721
+        ],
+        [
+          1105.21,
+          277.001
+        ],
+        [
+          1203.24,
+          879.839
+        ],
+        [
+          718.745,
+          929.312
+        ]
+      ],
+      "sha256": "085bb6937cd466a193e66ca61cd6ca2197d03f57f903320b28cd55e9aaf262a6",
+      "source_image_path": "background01/patent005/frame_0091.jpeg",
+      "frame_index": 91,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.13268472306254828,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 10,
+      "filename": "doc_010.jpg",
+      "document_id": "tax003",
+      "document_type": "tax",
+      "background": "background01",
+      "corners": [
+        [
+          682.311,
+          250.81
+        ],
+        [
+          1084.39,
+          224.875
+        ],
+        [
+          1197.11,
+          763.869
+        ],
+        [
+          724.375,
+          811.963
+        ]
+      ],
+      "sha256": "bf6bfd1a99d087d669a934089605b9899d912a9593e8702e9c0ed45bf8793da3",
+      "source_image_path": "background01/tax003/frame_0110.jpeg",
+      "frame_index": 110,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.11741446064742479,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 11,
+      "filename": "doc_011.jpg",
+      "document_id": "datasheet002",
+      "document_type": "datasheet",
+      "background": "background02",
+      "corners": [
+        [
+          770.424,
+          259.611
+        ],
+        [
+          1152.11,
+          199.82
+        ],
+        [
+          1368.25,
+          674.524
+        ],
+        [
+          923.876,
+          778.063
+        ]
+      ],
+      "sha256": "df99dfda148c23667ff2688ef92f32dd2adb594ef95d5de20483c4aab4df06f2",
+      "source_image_path": "background02/datasheet002/frame_0042.jpeg",
+      "frame_index": 42,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.1061887426118827,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 12,
+      "filename": "doc_012.jpg",
+      "document_id": "datasheet005",
+      "document_type": "datasheet",
+      "background": "background02",
+      "corners": [
+        [
+          1081.37,
+          260.972
+        ],
+        [
+          1446.65,
+          268.031
+        ],
+        [
+          1542.25,
+          747.83
+        ],
+        [
+          1122.08,
+          741.615
+        ]
+      ],
+      "sha256": "8be1d490c9e8621ba1d2d95478f0b84b440e23ecbac5a97af6143b07a6885a52",
+      "source_image_path": "background02/datasheet005/frame_0088.jpeg",
+      "frame_index": 88,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.0907322759886189,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 13,
+      "filename": "doc_013.jpg",
+      "document_id": "letter003",
+      "document_type": "letter",
+      "background": "background02",
+      "corners": [
+        [
+          854.892,
+          273.368
+        ],
+        [
+          1224.52,
+          270.203
+        ],
+        [
+          1338.84,
+          688.253
+        ],
+        [
+          867.532,
+          696.676
+        ]
+      ],
+      "sha256": "e2b34564950c51b9fd5ab385e19b745d6c1ddcd721b0944a2074cc9135a89f5a",
+      "source_image_path": "background02/letter003/frame_0101.jpeg",
+      "frame_index": 101,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.0854792924826389,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 14,
+      "filename": "doc_014.jpg",
+      "document_id": "magazine001",
+      "document_type": "magazine",
+      "background": "background02",
+      "corners": [
+        [
+          804.256,
+          198.019
+        ],
+        [
+          1242.57,
+          161.116
+        ],
+        [
+          1339.71,
+          778.31
+        ],
+        [
+          850.885,
+          826.879
+        ]
+      ],
+      "sha256": "a8b7e3395c1abcfb1fead4bd23d1e858ac46b33ac0a26f165a6bd8f87029f996",
+      "source_image_path": "background02/magazine001/frame_0129.jpeg",
+      "frame_index": 129,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.1407640677413677,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 15,
+      "filename": "doc_015.jpg",
+      "document_id": "magazine004",
+      "document_type": "magazine",
+      "background": "background02",
+      "corners": [
+        [
+          864.144,
+          220.695
+        ],
+        [
+          1264.82,
+          206.065
+        ],
+        [
+          1386.84,
+          753.201
+        ],
+        [
+          924.472,
+          789.797
+        ]
+      ],
+      "sha256": "3424049d9fca975fab7dfec2d18be05e7eed4a06b5dd8b06b36174039aa44a6e",
+      "source_image_path": "background02/magazine004/frame_0161.jpeg",
+      "frame_index": 161,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.11727231229745366,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 16,
+      "filename": "doc_016.jpg",
+      "document_id": "paper002",
+      "document_type": "paper",
+      "background": "background02",
+      "corners": [
+        [
+          808.277,
+          239.47
+        ],
+        [
+          1176.78,
+          195.679
+        ],
+        [
+          1387.08,
+          660.587
+        ],
+        [
+          963.271,
+          748.379
+        ]
+      ],
+      "sha256": "76d873c6fe13660d6546cf77a9836b528b36ae42ac40c87d1c7100a003da287d",
+      "source_image_path": "background02/paper002/frame_0166.jpeg",
+      "frame_index": 166,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.09881768124348955,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 17,
+      "filename": "doc_017.jpg",
+      "document_id": "paper005",
+      "document_type": "paper",
+      "background": "background02",
+      "corners": [
+        [
+          917.82,
+          203.642
+        ],
+        [
+          1275.04,
+          218.686
+        ],
+        [
+          1296.52,
+          690.672
+        ],
+        [
+          881.71,
+          671.786
+        ]
+      ],
+      "sha256": "58efac99c8bf4a82b4ace49c62a7da7af92809f45e28701aeaf2c7c391e8946d",
+      "source_image_path": "background02/paper005/frame_0054.jpeg",
+      "frame_index": 54,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.08756570213638118,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 18,
+      "filename": "doc_018.jpg",
+      "document_id": "patent003",
+      "document_type": "patent",
+      "background": "background02",
+      "corners": [
+        [
+          758.335,
+          272.724
+        ],
+        [
+          1111.14,
+          264.736
+        ],
+        [
+          1245.15,
+          737.414
+        ],
+        [
+          855.634,
+          783.801
+        ]
+      ],
+      "sha256": "ecf35ce3be1e8f083cdb65fbba88bf32249233f108f374827e58b501af78a2ac",
+      "source_image_path": "background02/patent003/frame_0038.jpeg",
+      "frame_index": 38,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.08955915102117099,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 19,
+      "filename": "doc_019.jpg",
+      "document_id": "tax001",
+      "document_type": "tax",
+      "background": "background02",
+      "corners": [
+        [
+          877.076,
+          224.075
+        ],
+        [
+          1265.77,
+          197.677
+        ],
+        [
+          1480.69,
+          671.609
+        ],
+        [
+          1014.82,
+          735.056
+        ]
+      ],
+      "sha256": "058d451df5ebce8a5f05cddce51dbbbb4841eceb7eac047289fed8d605357101",
+      "source_image_path": "background02/tax001/frame_0103.jpeg",
+      "frame_index": 103,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.10529469160059803,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 20,
+      "filename": "doc_020.jpg",
+      "document_id": "tax004",
+      "document_type": "tax",
+      "background": "background02",
+      "corners": [
+        [
+          858.436,
+          321.72
+        ],
+        [
+          1205.32,
+          276.684
+        ],
+        [
+          1376.61,
+          710.148
+        ],
+        [
+          965.353,
+          778.479
+        ]
+      ],
+      "sha256": "d6e192440fe72ee8dd96ee878ec9ba5b1ee8c728b3bff6f021f7244973dfe7a5",
+      "source_image_path": "background02/tax004/frame_0136.jpeg",
+      "frame_index": 136,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.08517241131510417,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 21,
+      "filename": "doc_021.jpg",
+      "document_id": "datasheet003",
+      "document_type": "datasheet",
+      "background": "background03",
+      "corners": [
+        [
+          821.218,
+          263.373
+        ],
+        [
+          1235.24,
+          265.158
+        ],
+        [
+          1323.92,
+          824.087
+        ],
+        [
+          820.061,
+          834.937
+        ]
+      ],
+      "sha256": "cf8acd7af86978a3c905e20f1bf9fefd7a4999c82d173717a9f2e0f7c997c049",
+      "source_image_path": "background03/datasheet003/frame_0047.jpeg",
+      "frame_index": 47,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.1251991031693673,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 22,
+      "filename": "doc_022.jpg",
+      "document_id": "letter001",
+      "document_type": "letter",
+      "background": "background03",
+      "corners": [
+        [
+          731.907,
+          343.255
+        ],
+        [
+          1109.78,
+          331.917
+        ],
+        [
+          1236.67,
+          772.932
+        ],
+        [
+          754.914,
+          809.589
+        ]
+      ],
+      "sha256": "a532d62a59db7e0bf58597fce110d1bec06d4a5ca14239f585ac7d82c66a551d",
+      "source_image_path": "background03/letter001/frame_0068.jpeg",
+      "frame_index": 68,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.0949047333183835,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 23,
+      "filename": "doc_023.jpg",
+      "document_id": "letter004",
+      "document_type": "letter",
+      "background": "background03",
+      "corners": [
+        [
+          738.071,
+          318.831
+        ],
+        [
+          1080.01,
+          264.991
+        ],
+        [
+          1212.03,
+          680.001
+        ],
+        [
+          799.47,
+          755.285
+        ]
+      ],
+      "sha256": "ede867336921ecbfdf811a4d763cb517f8780b065220342666b1e7ef79e66eb6",
+      "source_image_path": "background03/letter004/frame_0089.jpeg",
+      "frame_index": 89,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.08046438217255016,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 24,
+      "filename": "doc_024.jpg",
+      "document_id": "magazine002",
+      "document_type": "magazine",
+      "background": "background03",
+      "corners": [
+        [
+          840.678,
+          231.555
+        ],
+        [
+          1200.07,
+          249.537
+        ],
+        [
+          1256.05,
+          729.448
+        ],
+        [
+          838.853,
+          721.676
+        ]
+      ],
+      "sha256": "c38d07269ac518875b064df55b53dbd6d3ecd30273d33552b175d8382ac7365f",
+      "source_image_path": "background03/magazine002/frame_0153.jpeg",
+      "frame_index": 153,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.09065411277223187,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 25,
+      "filename": "doc_025.jpg",
+      "document_id": "magazine005",
+      "document_type": "magazine",
+      "background": "background03",
+      "corners": [
+        [
+          927.542,
+          233.742
+        ],
+        [
+          1360.67,
+          172.457
+        ],
+        [
+          1465.14,
+          698.757
+        ],
+        [
+          891.687,
+          746.356
+        ]
+      ],
+      "sha256": "7cdaa05a5e826710220d99184fc7859f2581cd79d3f561f1727c2b8731594802",
+      "source_image_path": "background03/magazine005/frame_0117.jpeg",
+      "frame_index": 117,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.1269799103845968,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 26,
+      "filename": "doc_026.jpg",
+      "document_id": "paper003",
+      "document_type": "paper",
+      "background": "background03",
+      "corners": [
+        [
+          730.035,
+          286.832
+        ],
+        [
+          1152.16,
+          253.584
+        ],
+        [
+          1259.35,
+          830.242
+        ],
+        [
+          754.808,
+          879.071
+        ]
+      ],
+      "sha256": "4f1d86f120e3b51577161be85d65505eff470ea6e2d9f99d2f310a01a6a48a12",
+      "source_image_path": "background03/paper003/frame_0147.jpeg",
+      "frame_index": 147,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.13189735284649887,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 27,
+      "filename": "doc_027.jpg",
+      "document_id": "patent001",
+      "document_type": "patent",
+      "background": "background03",
+      "corners": [
+        [
+          788.483,
+          226.841
+        ],
+        [
+          1211.94,
+          187.131
+        ],
+        [
+          1387.43,
+          759.868
+        ],
+        [
+          889.458,
+          834.278
+        ]
+      ],
+      "sha256": "1a0c69246313cbde21c11b1ea7a51e6f5cf8eb8880a34c65fe6138b03ba6f672",
+      "source_image_path": "background03/patent001/frame_0105.jpeg",
+      "frame_index": 105,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.13490990722005208,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 28,
+      "filename": "doc_028.jpg",
+      "document_id": "patent004",
+      "document_type": "patent",
+      "background": "background03",
+      "corners": [
+        [
+          658.75,
+          264.467
+        ],
+        [
+          1041.04,
+          283.42
+        ],
+        [
+          1025.85,
+          742.67
+        ],
+        [
+          541.303,
+          718.845
+        ]
+      ],
+      "sha256": "277042dfab89bc09d98282c179e2db96824600e4d92f3dfb5068a81d14d128fd",
+      "source_image_path": "background03/patent004/frame_0061.jpeg",
+      "frame_index": 61,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.09616614827136379,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 29,
+      "filename": "doc_029.jpg",
+      "document_id": "tax002",
+      "document_type": "tax",
+      "background": "background03",
+      "corners": [
+        [
+          1006.44,
+          244.499
+        ],
+        [
+          1437.55,
+          193.521
+        ],
+        [
+          1540.41,
+          785.378
+        ],
+        [
+          1018.96,
+          814.767
+        ]
+      ],
+      "sha256": "413c70ff1368e424fd689127f38265c343983d1831f28da3138bffd1e73585ed",
+      "source_image_path": "background03/tax002/frame_0074.jpeg",
+      "frame_index": 74,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.1345807453776042,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 30,
+      "filename": "doc_030.jpg",
+      "document_id": "tax005",
+      "document_type": "tax",
+      "background": "background03",
+      "corners": [
+        [
+          774.417,
+          421.335
+        ],
+        [
+          1119.07,
+          423.182
+        ],
+        [
+          1206.9,
+          846.275
+        ],
+        [
+          774.771,
+          858.481
+        ]
+      ],
+      "sha256": "de6d718ef622c504dc6d4a9adc6bf6e8f694d6378c1c15410bddb5d59c965a95",
+      "source_image_path": "background03/tax005/frame_0038.jpeg",
+      "frame_index": 38,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.08067270314356677,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 31,
+      "filename": "doc_031.jpg",
+      "document_id": "datasheet001",
+      "document_type": "datasheet",
+      "background": "background04",
+      "corners": [
+        [
+          605.896,
+          688.902
+        ],
+        [
+          661.383,
+          237.499
+        ],
+        [
+          1330.83,
+          289.155
+        ],
+        [
+          1360.8,
+          731.151
+        ]
+      ],
+      "sha256": "547d640e2f9098cf8a5122977474fa140ed6e91fc6afae1124c8d9df81727ff3",
+      "source_image_path": "background04/datasheet001/frame_0042.jpeg",
+      "frame_index": 42,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.1537073125161555,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 32,
+      "filename": "doc_032.jpg",
+      "document_id": "datasheet004",
+      "document_type": "datasheet",
+      "background": "background04",
+      "corners": [
+        [
+          1336.94,
+          255.195
+        ],
+        [
+          1565.72,
+          636.885
+        ],
+        [
+          834.761,
+          778.101
+        ],
+        [
+          702.021,
+          318.724
+        ]
+      ],
+      "sha256": "dc6048157bd4f7b4f15c15c35fe5affa1ecf95613a6d0ffc11ceb0de541602a7",
+      "source_image_path": "background04/datasheet004/frame_0060.jpeg",
+      "frame_index": 60,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.1474264954940683,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 33,
+      "filename": "doc_033.jpg",
+      "document_id": "letter002",
+      "document_type": "letter",
+      "background": "background04",
+      "corners": [
+        [
+          720.615,
+          821.556
+        ],
+        [
+          707.982,
+          379.564
+        ],
+        [
+          1353.24,
+          329.069
+        ],
+        [
+          1478.29,
+          752.815
+        ]
+      ],
+      "sha256": "083c6628698be7fcc399cfef1d77d186a93ef9738b06b9bd12ef6757a4445a9a",
+      "source_image_path": "background04/letter002/frame_0066.jpeg",
+      "frame_index": 66,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.14841208281997487,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 34,
+      "filename": "doc_034.jpg",
+      "document_id": "letter005",
+      "document_type": "letter",
+      "background": "background04",
+      "corners": [
+        [
+          1277.25,
+          328.685
+        ],
+        [
+          1429.65,
+          738.746
+        ],
+        [
+          686.134,
+          873.143
+        ],
+        [
+          634.924,
+          426.864
+        ]
+      ],
+      "sha256": "cae56d11e5ad74cc3dfea620c1da0027e93bcdd69b32f7fa0e707026f7b636ea",
+      "source_image_path": "background04/letter005/frame_0082.jpeg",
+      "frame_index": 82,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.14878794579957566,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 35,
+      "filename": "doc_035.jpg",
+      "document_id": "magazine003",
+      "document_type": "magazine",
+      "background": "background04",
+      "corners": [
+        [
+          1264.36,
+          245.833
+        ],
+        [
+          1399.98,
+          748.681
+        ],
+        [
+          585.971,
+          884.907
+        ],
+        [
+          525.569,
+          319.52
+        ]
+      ],
+      "sha256": "22b1ee3d63cf450489aafdd79a8e663ac45e125ba37d770351a250369008c976",
+      "source_image_path": "background04/magazine003/frame_0110.jpeg",
+      "frame_index": 110,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.20494585191044556,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 36,
+      "filename": "doc_036.jpg",
+      "document_id": "paper001",
+      "document_type": "paper",
+      "background": "background04",
+      "corners": [
+        [
+          708.214,
+          665.495
+        ],
+        [
+          817.428,
+          261.155
+        ],
+        [
+          1439.86,
+          320.49
+        ],
+        [
+          1380.61,
+          779.28
+        ]
+      ],
+      "sha256": "d520cfad84b1af31bad6efb52b25509aeaf0ad9fadadba965579c780cf3d9cf9",
+      "source_image_path": "background04/paper001/frame_0093.jpeg",
+      "frame_index": 93,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.13825826814718364,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 37,
+      "filename": "doc_037.jpg",
+      "document_id": "paper004",
+      "document_type": "paper",
+      "background": "background04",
+      "corners": [
+        [
+          1422.55,
+          433.599
+        ],
+        [
+          1391.1,
+          858.093
+        ],
+        [
+          632.732,
+          724.979
+        ],
+        [
+          782.485,
+          349.6
+        ]
+      ],
+      "sha256": "405700a93e5f9b60806486f7f5540e2c2a1a288bda7e8b3c975e02dda75f7fd4",
+      "source_image_path": "background04/paper004/frame_0031.jpeg",
+      "frame_index": 31,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.1396014571214313,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 38,
+      "filename": "doc_038.jpg",
+      "document_id": "patent002",
+      "document_type": "patent",
+      "background": "background04",
+      "corners": [
+        [
+          1305.21,
+          375.737
+        ],
+        [
+          1351.04,
+          793.269
+        ],
+        [
+          577.034,
+          730.479
+        ],
+        [
+          660.462,
+          317.809
+        ]
+      ],
+      "sha256": "6bea3ff8193cfc874d6267212057a149ae83c680f249c80a4137f85f7db3c69b",
+      "source_image_path": "background04/patent002/frame_0045.jpeg",
+      "frame_index": 45,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.14255294700906637,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 39,
+      "filename": "doc_039.jpg",
+      "document_id": "patent005",
+      "document_type": "patent",
+      "background": "background04",
+      "corners": [
+        [
+          655.625,
+          681.628
+        ],
+        [
+          703.118,
+          276.016
+        ],
+        [
+          1330.36,
+          259.121
+        ],
+        [
+          1364.78,
+          679.49
+        ]
+      ],
+      "sha256": "416a66d12ae2f0980ca2776fb50822331512c1c35edff5f8c52127966cecbbe3",
+      "source_image_path": "background04/patent005/frame_0061.jpeg",
+      "frame_index": 61,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.1330523861940586,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 40,
+      "filename": "doc_040.jpg",
+      "document_id": "tax003",
+      "document_type": "tax",
+      "background": "background04",
+      "corners": [
+        [
+          672.603,
+          762.522
+        ],
+        [
+          598.908,
+          320.407
+        ],
+        [
+          1228.75,
+          282.621
+        ],
+        [
+          1388.55,
+          658.762
+        ]
+      ],
+      "sha256": "90471368e2a70f276f5097f474cf0d04295d084674144f51237a654c2e361a0a",
+      "source_image_path": "background04/tax003/frame_0057.jpeg",
+      "frame_index": 57,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.13674891580512147,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 41,
+      "filename": "doc_041.jpg",
+      "document_id": "datasheet002",
+      "document_type": "datasheet",
+      "background": "background05",
+      "corners": [
+        [
+          760.111,
+          243.112
+        ],
+        [
+          1188.76,
+          243.893
+        ],
+        [
+          1207.36,
+          813.576
+        ],
+        [
+          674.748,
+          796.06
+        ]
+      ],
+      "sha256": "6ecab27b1c322e4f2133c05fc5208c83325fca29ac7386f5085c12a04194bb47",
+      "source_image_path": "background05/datasheet002/frame_0022.jpeg",
+      "frame_index": 22,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.13025209301480514,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 42,
+      "filename": "doc_042.jpg",
+      "document_id": "datasheet005",
+      "document_type": "datasheet",
+      "background": "background05",
+      "corners": [
+        [
+          780.533,
+          266.139
+        ],
+        [
+          1176.5,
+          299.039
+        ],
+        [
+          1146.81,
+          833.021
+        ],
+        [
+          660.94,
+          782.154
+        ]
+      ],
+      "sha256": "65b8b4017beaedb096d22c702f26e3340a3e92ffb49be06a7391411e1647ffdf",
+      "source_image_path": "background05/datasheet005/frame_0030.jpeg",
+      "frame_index": 30,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.11314033487051504,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 43,
+      "filename": "doc_043.jpg",
+      "document_id": "letter003",
+      "document_type": "letter",
+      "background": "background05",
+      "corners": [
+        [
+          591.25,
+          298.18
+        ],
+        [
+          1027.05,
+          277.482
+        ],
+        [
+          1202.08,
+          811.852
+        ],
+        [
+          655.536,
+          885.54
+        ]
+      ],
+      "sha256": "8a5bc5ae7b61cca81da06542f60cf911c8af3a0121e1d44a4dceedff3190f76d",
+      "source_image_path": "background05/letter003/frame_0040.jpeg",
+      "frame_index": 40,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.13557494394965275,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 44,
+      "filename": "doc_044.jpg",
+      "document_id": "magazine001",
+      "document_type": "magazine",
+      "background": "background05",
+      "corners": [
+        [
+          653.694,
+          306.537
+        ],
+        [
+          1084.22,
+          262.699
+        ],
+        [
+          1238.32,
+          818.413
+        ],
+        [
+          712.706,
+          899.628
+        ]
+      ],
+      "sha256": "c0e8a2a611d3180490ecd3466b8f6424d7ba84935a0dac35418efbdee8e44f21",
+      "source_image_path": "background05/magazine001/frame_0050.jpeg",
+      "frame_index": 50,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.13564196417293592,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 45,
+      "filename": "doc_045.jpg",
+      "document_id": "magazine004",
+      "document_type": "magazine",
+      "background": "background05",
+      "corners": [
+        [
+          913.707,
+          211.337
+        ],
+        [
+          1320.93,
+          201.795
+        ],
+        [
+          1266.75,
+          779.821
+        ],
+        [
+          788.451,
+          745.335
+        ]
+      ],
+      "sha256": "a5de4036ea8c912e04bfea3885259d8cee3813aa58c33bf7302ec3fc3cc6e630",
+      "source_image_path": "background05/magazine004/frame_0053.jpeg",
+      "frame_index": 53,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.1192608950752315,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 46,
+      "filename": "doc_046.jpg",
+      "document_id": "paper002",
+      "document_type": "paper",
+      "background": "background05",
+      "corners": [
+        [
+          703.563,
+          227.579
+        ],
+        [
+          1186.08,
+          169.652
+        ],
+        [
+          1353.58,
+          846.69
+        ],
+        [
+          808.26,
+          944.351
+        ]
+      ],
+      "sha256": "69eab14754a0590d14b8e172b49d308eb7b52477be8f17439899ea5f0cc4fabb",
+      "source_image_path": "background05/paper002/frame_0064.jpeg",
+      "frame_index": 64,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.1778260122258391,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 47,
+      "filename": "doc_047.jpg",
+      "document_id": "paper005",
+      "document_type": "paper",
+      "background": "background05",
+      "corners": [
+        [
+          747.322,
+          288.844
+        ],
+        [
+          1154.18,
+          223.705
+        ],
+        [
+          1261.91,
+          770.797
+        ],
+        [
+          761.06,
+          839.019
+        ]
+      ],
+      "sha256": "8479c48a78d537ae82455108a77f9d00bbdfd6fdef168c310b7ca7c9fe34cb99",
+      "source_image_path": "background05/paper005/frame_0024.jpeg",
+      "frame_index": 24,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.1220337972588735,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 48,
+      "filename": "doc_048.jpg",
+      "document_id": "patent003",
+      "document_type": "patent",
+      "background": "background05",
+      "corners": [
+        [
+          941.099,
+          178.806
+        ],
+        [
+          1364.44,
+          182.62
+        ],
+        [
+          1242.05,
+          814.763
+        ],
+        [
+          770.835,
+          733.093
+        ]
+      ],
+      "sha256": "a48385aa5cf1bb9cfa4edd2470d8bb4a574116a54d166896776d83a979cb570a",
+      "source_image_path": "background05/patent003/frame_0031.jpeg",
+      "frame_index": 31,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.13097334461998458,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 49,
+      "filename": "doc_049.jpg",
+      "document_id": "tax001",
+      "document_type": "tax",
+      "background": "background05",
+      "corners": [
+        [
+          761.697,
+          261.232
+        ],
+        [
+          1189.74,
+          150.952
+        ],
+        [
+          1309.22,
+          767.647
+        ],
+        [
+          794.461,
+          856.798
+        ]
+      ],
+      "sha256": "3fcf1bb5e467c9547b73fadbe743b3a8295b4147622efb3f6b40890870610114",
+      "source_image_path": "background05/tax001/frame_0036.jpeg",
+      "frame_index": 36,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.14145498993127895,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": 50,
+      "filename": "doc_050.jpg",
+      "document_id": "tax004",
+      "document_type": "tax",
+      "background": "background05",
+      "corners": [
+        [
+          667.28,
+          147.697
+        ],
+        [
+          1094.49,
+          219.16
+        ],
+        [
+          1150.42,
+          802.74
+        ],
+        [
+          640.897,
+          770.764
+        ]
+      ],
+      "sha256": "a3b94f359ae92643461f3bde0cb47e2cc1d90144b203ce22275982acead645e1",
+      "source_image_path": "background05/tax004/frame_0048.jpeg",
+      "frame_index": 48,
+      "width": 1920,
+      "height": 1080,
+      "document_area_ratio": 0.13590491803120175,
+      "model_width": 2100.0,
+      "model_height": 2970.0,
+      "source_url": "https://github.com/jchazalon/smartdoc15-ch1-dataset",
+      "license": "CC BY 4.0"
+    }
+  ]
+}
